@@ -6,7 +6,7 @@ main()
     scanf("%d",&a);
         if(a>a)
         printf("not a prime number\n");
-        else if(a<a)
+        else if(a/a)
          printf("not a prime number\n");
         else if(a/a)
         printf("prime number\n");
