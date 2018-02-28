@@ -1,24 +1,24 @@
-#include <stdio.h>
-int a[10];
-int b[10];
+#include<stdio.h>
+int x[10];
+int y[10];
 void merging(int low, int mid, int high) {
    int l1, l2, i;
 
    for(l1 = low, l2 = mid + 1, i = low; l1 <= mid && l2 <= high; i++) {
-      if(a[l1] <= a[l2])
-         b[i] = a[l1++];
+      if(x[l1] <= x[l2])
+         y[i] = x[l1++];
       else
-         b[i] = a[l2++];
+         y[i] = x[l2++];
    }
    
    while(l1 <= mid)    
-      b[i++] = a[l1++];
+      y[i++] = x[l1++];
 
    while(l2 <= high)   
-      b[i++] = a[l2++];
+      y[i++] = x[l2++];
 
    for(i = low; i <= high; i++)
-      a[i] = b[i];
+     x[i] = y[i];
 }
 
 void sort(int low, int high) {
