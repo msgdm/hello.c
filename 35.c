@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include<string.h>
-int main(void) {
+main() {
 char ch[100];
 int i,k,count=0;
 gets(ch);
