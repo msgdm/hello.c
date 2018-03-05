@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+main()
 {
       double firstNumber, secondNumber, temporaryVariable;
 
@@ -14,6 +14,4 @@ int main()
 
       printf("\nAfter swapping, firstNumber = %.2lf\n", firstNumber);
       printf("After swapping, secondNumber = %.2lf", secondNumber);
-
-      return 0;
 }
