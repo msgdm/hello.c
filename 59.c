@@ -1,5 +1,5 @@
 #include <stdio.h>
-main()
+int main()
 {
     int a,b,c,d,e,f,g,h,i,j;
     printf("enter the 10 numbers\n");
@@ -24,4 +24,5 @@ main()
     printf("%d",i);
      if(j>(b,c,d,e,f,g,i,a,h))
     printf("%d",j);
+    return 0;
 }
