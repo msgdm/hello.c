@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include<string.h>
-int main() 
+main() 
 {
 	char a[100];
 	int n,i,count=0;
@@ -18,5 +17,4 @@ int main()
 	    }
 	}
     printf("%d",count+1);
-	return 0;
 }
