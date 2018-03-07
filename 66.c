@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+main()
 {
     int a,b,c,d;
     printf("Enter two numbers(intervals): ");
@@ -25,6 +25,4 @@ int main()
 
         ++a;
     }
-
-    return 0;
 }
