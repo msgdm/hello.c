@@ -1,6 +1,5 @@
 #include<stdio.h>
-#include<math.h>
-int main()
+main()
 {
   int n,a,c,i;
   printf("Enter the number");
@@ -14,5 +13,4 @@ int main()
     }
   }
   printf("%d",c);
-  return 0;
 }
